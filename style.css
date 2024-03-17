@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo1{
+    height: 70px;
+    /* position: fixed; */
+
+}
+/* STYLE NAV */
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+    
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 10px;
+   
+}
+.logo1{
+    border-radius: 15px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+.list-color{
+    color: black;
+}
+.list{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+li{
+    
+    list-style: none;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+li:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+}
+.head1{
+    display: flex;
+}
+.head-logo{
+    height: 500px;
+    width: 700px;
+    border-radius: 25px;
+    margin-left: 150px;
+}
+.head1{
+    margin-top: 50px;
+}
+
+.head2{
+    /* line-height: px; */
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    margin-left: 200px;
+    /* gap: 25px; */
+    
+}
+.head2 .off{
+    background-color: rgb(30, 255, 0);
+    display: inline;
+    padding: 20px;
+    margin: 25px auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+}
+.head2 h1{
+    margin: 20px 0px;
+}
+
+.head2 p{
+    margin: 20px 0px;
+}
+.head2 button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(68, 68, 249, 0.637);
+}
+
+button:hover{
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.card-imgs{
+    display: flex;
+}
+.card{
+    /* border: 1px solid rgb(24, 14, 3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-img{
+    height: 250px;
+    /* margin: 50px; */
+   
+    border-radius: 20px;
+}
+
+.neap-pizza {
+    margin: 50px;
+    border: 1px solid rgb(24, 14, 3);
+    padding: 25px;
+    border-radius: 25px;
+    background-color: rgba(245, 211, 233, 0.79);
+    box-shadow: 5px 5px 2px black;
+
+    
+}
+
+.Chicago-pizza{
+    margin: 50px;
+    border: 1px solid rgb(24, 14, 3);
+    padding: 25px;
+    border-radius: 25px;
+    background-color: rgba(245, 211, 233, 0.79);
+    box-shadow: 5px 5px 2px black;
+}
+.card-img h2{
+    margin-left: 50px;
+    padding: 40px;
+    align-items: center;
+}
+.price{
+    border-radius: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 25px;
+    background-color:red ;
+
+}
+#gallary-h1{
+    text-align: center;
+    /* background-color: blue; */
+    /* width: 40%; */
+    /* display: inline-block; */
+}
+.span{
+    background-color: red;
+    height: 10px;
+    width: 200px;
+
+}
+
+img{
+    height: 400px;
+    /* display: flex;
+    flex-direction:row;
+    justify-content: space-between; */
+    align-items: center;
+    margin-left: 70px;
+    border-radius: 10px;
+
+}
+
+.footer-nav{
+    background-color: rgb(54, 54, 246);
+    border-radius: 10px 10px 0px 0px;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+.footer-all{
+    /* border-radius: px; */
+    display: flex;
+    flex-direction: column;
+}
+.footer-main{
+
+    flex-direction: column;
+    background-color: rgb(5, 5, 20);
+    border-radius: 0px 0 10px 10px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: start;
+    padding: 100px;
+    margin-left: 10%;
+}
+.footer-main p{
+    color: aliceblue;
+}
+.name{
+    
+    color: aliceblue;
+    background-color: rgb(30, 0, 255);
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+a{
+    color: white;
+    margin: 30px;
+}
